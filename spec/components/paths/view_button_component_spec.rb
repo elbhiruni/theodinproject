@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Paths::ViewButtonComponent, type: :component do
-  context 'when leaner is logged in' do
+  context 'when learner is logged in' do
     it 'renders the view button' do
       path = create(:path)
       current_user = create(:user)
